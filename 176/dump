@@ -1,0 +1,9 @@
+# obtained using `objdump -s -j .rodata fang-of-haynekhtnamet > ./dump`
+# `strings fang-of-haynekhtnamet` basically gives the answer.
+
+fang-of-haynekhtnamet:	file format elf64-x86-64
+Contents of section .rodata:
+ 06e0 01000200 00000000 2a5a4150 212a2070  ........*ZAP!* p
+ 06f0 69636f43 54467b6c 3376336c 5f757021  icoCTF{l3v3l_up!
+ 0700 5f74346b 335f345f 72333574 215f6633  _t4k3_4_r35t!_f3
+ 0710 35353338 38377d00                    553887}.
