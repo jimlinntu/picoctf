@@ -53,7 +53,7 @@ for i in range(len(enc)):
     flag.append(chr(enc[i] ^ recovered_key[i]))
 
 flag_str = "".join(flag)
-print("picoCTF{{}}".format(flag_str))
+print("picoCTF{{{}}}".format(flag_str))
 
 
 
